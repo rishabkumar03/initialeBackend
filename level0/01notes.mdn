@@ -1,0 +1,30 @@
+BACKEND DEVELOPMENT
+
+There are 2 major components
+
+1. A programming language
+    which includes java, js, PHP, golang, C++ (on a framework)
+
+2. A Database
+    which includes Mango, MySQL, Postgres, sqlite (ORM, ODM)
+
+/-- 02introduction.png --/
+
+    A Javascript based BACKEND
+    Data         File         Third Party (API)
+
+-> A JS Runtime : Nodejs / Deno / Bun
+    Package.json    .env        ( Readme, git, lint, prettier etc)
+
+-> src
+    index           APP         constants
+    Db Connects     config,             enums, DB-name
+                    cookie, urlencode
+
+--> DB
+--> Models
+--> Controllers
+--> Routes
+--> Middlewares
+--> Utils
+--> More (Depends)

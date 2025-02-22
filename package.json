@@ -1,0 +1,19 @@
+{
+  "name": "backend-exploration",
+  "version": "1.0.0",
+  "description": "a basic tech term to understand, learn and deploy",
+  "main": "02index.js",
+  "scripts": {
+    "start": "node 02index.js"
+  },
+  "keywords": [
+    "node",
+    "rishab"
+  ],
+  "author": "rishab kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
