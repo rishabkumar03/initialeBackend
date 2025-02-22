@@ -17,7 +17,7 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/darkTheme', (req, res) => {
-    res.send('<h3>Is my love worth the wait?</h3>')
+    res.send('<h3>Is my learning worth the wait?</h3>')
 })
 
 app.listen(process.env.PORT, () => {
